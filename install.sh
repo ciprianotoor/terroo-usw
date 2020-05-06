@@ -20,7 +20,7 @@ _install_pkgs(){
   sudo add-apt-repository -y ppa:agornostal/ulauncher
   sudo apt update
   sudo apt install ulauncher -y
-  sudo add-apt-repository --remove ppa:agornostal/ulauncher
+  sudo add-apt-repository --remove -y ppa:agornostal/ulauncher
   sudo apt update
 }
 
