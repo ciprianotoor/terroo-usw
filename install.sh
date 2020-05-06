@@ -16,10 +16,10 @@ _start(){
 }
 
 _install_pkgs(){
-  sudo apt install sway waybar vim mpd mpc ncmpcpp
+  sudo apt install sway waybar vim mpd mpc ncmpcpp -y
   sudo add-apt-repository ppa:agornostal/ulauncher
   sudo apt update
-  sudo apt install ulauncher
+  sudo apt install ulauncher -y
   sudo add-apt-repository --remove ppa:agornostal/ulauncher
   sudo apt update
 }
