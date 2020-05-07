@@ -12,8 +12,8 @@ export _pkgs=(sway waybar vim mpd mpc ncmpcpp ulauncher)
 export _conf="${HOME}/.config/"
 export _lsf="${HOME}/.local/share"
 export _wall="wallpaper.jpg"
-export _sa="sudo apt"
-export _oth="fonts fc-cache bashrc"
+export _sa=(sudo apt)
+export _oth=(fonts fc-cache bashrc)
 
 _start(){
   read -n1 -p "Do you like start installation? [Y/n]: "
