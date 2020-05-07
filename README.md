@@ -3,7 +3,7 @@ Customize your Ubuntu with Wayland + Sway + Ulauncher + Waybar
 
 ## Use
 ```sh
-git clone https://github.com/terroo/uws
+git clone https://github.com/terroo/usw
 cd usw && ./install.sh
 ```
 
