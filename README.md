@@ -11,3 +11,6 @@ cd usw && ./install.sh
 
 + License: [GPLv3](LICENSE)
 + Author: [Marcos Oliveira](https://en.terminalroot.com.br/)
+
+# Final example
+![Ubuntu with Wayland + Sway + Ulauncher + Waybar](ubuntu-sway.jpg)
