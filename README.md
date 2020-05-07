@@ -14,3 +14,5 @@ cd usw && ./install.sh
 
 # Final example
 ![Ubuntu with Wayland + Sway + Ulauncher + Waybar](ubuntu-sway.jpg)
+
+<!-- # Watch video-->
