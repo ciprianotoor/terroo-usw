@@ -12,7 +12,7 @@ export _pkgs=(sway waybar vim mpd mpc ncmpcpp ulauncher)
 export _conf="${HOME}/.config/"
 export _lsf="${HOME}/.local/share"
 export _wall="wallpaper.jpg"
-export _sa=(sudo apt)
+export _sa="sudo apt"
 export _oth=(fonts fc-cache bashrc)
 
 _start(){
@@ -26,10 +26,10 @@ _start(){
 }
 
 _install_pkgs(){
-  ${_sa}-apt-repository -y ppa:agornostal/${_pkgs[6]}
+  sudo add-apt-repository -y ppa:agornostal/${_pkgs[6]}
   ${_sa} update
   ${_sa} install $(printf '%s ' "${_pkgs[@]}") -y
-  ${_sa}-apt-repository --remove -y ppa:agornostal/${_pkgs[6]}
+  sudo add-apt-repository --remove -y ppa:agornostal/${_pkgs[6]}
   ${_sa} update
 }
 
